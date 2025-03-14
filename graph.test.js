@@ -74,7 +74,7 @@ describe("removeEdge", function() {
   });
 });
 
-/* describe("removeVertex", function() {
+describe("removeVertex", function() {
   it("should remove the vertex as well as any edges", function() {
     let graph = new Graph();
     let a = new Node("A");
@@ -97,7 +97,7 @@ describe("removeEdge", function() {
   });
 });
 
-describe("DFS", function() {
+/* describe("DFS", function() {
   it("return an array of the nodes searched using DFS", function() {
     let graph = new Graph();
     let S = new Node("S");
