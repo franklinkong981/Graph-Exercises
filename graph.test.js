@@ -34,7 +34,7 @@ describe("addVertices", function() {
   });
 });
 
-/* describe("addEdge", function() {
+describe("addEdge", function() {
   it("should add the appropriate edges to the adjacency list", function() {
     let graph = new Graph();
     let a = new Node("A");
@@ -53,7 +53,7 @@ describe("addVertices", function() {
   });
 });
 
-describe("removeEdge", function() {
+/* describe("removeEdge", function() {
   it("should remove the vertices from the adjacency list", function() {
     let graph = new Graph();
     let a = new Node("A");
