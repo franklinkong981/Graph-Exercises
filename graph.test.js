@@ -146,7 +146,7 @@ describe("DFS", function() {
   });
 });
 
-/* describe("BFS", function() {
+describe("BFS", function() {
   it("should return an array of the nodes searched using BFS", function() {
     let graph = new Graph();
     let S = new Node("S");
@@ -197,4 +197,4 @@ describe("DFS", function() {
       "T"
     ]);
   });
-}); */
+}); 
